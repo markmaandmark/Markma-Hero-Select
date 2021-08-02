@@ -11,7 +11,13 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import hero.Hero;
 import hero.HeroMapper;
-
+/**
+ * SQL读取类
+ * 通过传入的name列表查找相应的hero
+ * 然后找到要查询的hero的各种信息properties并输出
+ * @author markma
+ * @date 修改时间:2021年8月2日 上午11:40:31
+ */
 public class SQLReader
 {
 	public SQLReader() 

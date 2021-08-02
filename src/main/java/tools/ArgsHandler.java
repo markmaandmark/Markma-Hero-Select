@@ -1,9 +1,16 @@
 package tools;
-
+/**
+ * 处理Args类
+ * switchModel():对main不同类型的args传参，调用不同的方法对args处理后读SQL
+ * printHelp():打印帮助
+ * VERSION:打印版本
+ * @author markma
+ * @date 修改时间:2021年8月2日 上午11:34:37
+ */
 public class ArgsHandler
 {
 	String args[];
-	final String VERSION = "0.0.1";
+	final String VERSION = "0.0.2";
 	public ArgsHandler()
 	{
 		

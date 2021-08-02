@@ -1,5 +1,13 @@
 package hero;
-
+/**
+ * hero类
+ * 包含hero的各项属性
+ * 包含这些属性的get、set方法
+ * 包含toString重写，输出全属性hero
+ * 包含partToString()，输出只有部分属性的hero
+ * @author markma
+ * @date 修改时间:2021年8月2日 上午11:44:07
+ */
 public class Hero {
 
 	final String COLORCODE = "31";
